@@ -7,8 +7,8 @@ Results of searching Google sheets integrations:
 - Python with Pandas can maintain Excel it seems (and I can start using sdk for yahoo finance)
 
 2. Plan
-- Total return (including capital gains, options, dividends)
-- Add bonds to the tracker
-- Compare to the indexes such as S&P 500 my performance
-- Measurement of leverage
-- Convert currency to USD
+- [x] Total return (capital gains, dividends)
+- [ ] Add bonds to the tracker
+- [ ] Compare to the indexes such as S&P 500 my performance
+- [ ] Measurement of leverage
+- [ ] Convert currency to USD
