@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "portfolio"
+version = "0.1.0"
+description = ""
+authors = ["Max Kavun <maxkavun@outlook.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+yfinance = "^0.2.33"
+jupyterlab = "^4.0.9"
+pyfolio-reloaded = "0.9.5"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
