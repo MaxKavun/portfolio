@@ -8,7 +8,7 @@ Results of searching Google sheets integrations:
 
 2. Plan
 - [x] Total return (capital gains, dividends)
-- [ ] Optimize yfinance lib to keep cache and add limiter to avoid IP ban
+- [x] Optimize yfinance lib to keep cache and add limiter to avoid IP ban
 - [ ] Add bonds to the tracker
 - [x] Compare to the indexes such as S&P 500 my performance
 - [ ] Measurement of leverage
