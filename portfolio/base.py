@@ -8,7 +8,6 @@ from pyrate_limiter import Duration, RequestRate, Limiter
 class CachedLimiterSession(CacheMixin, LimiterMixin, Session):
     pass
 
-# TODO: Add artificial rate limit on API calls to avoid ip ban
 class Ticker:
     def __init__(self):
         self.session = CachedLimiterSession(

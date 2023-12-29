@@ -12,7 +12,7 @@ Results of searching Google sheets integrations:
 - [ ] Add bonds to the tracker
 - [x] Compare to the indexes such as S&P 500 my performance
 - [ ] Measurement of leverage
-- [ ] Convert currency to USD
+- [x] Convert currency to USD
 - [x] Exclude stocks which were sold
 - [ ] Add calculation for PIT-38 tax form
 - [ ] Add second data provider (IBKR API) for bonds
