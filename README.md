@@ -10,7 +10,10 @@ Results of searching Google sheets integrations:
 - [x] Total return (capital gains, dividends)
 - [ ] Optimize yfinance lib to keep cache and add limiter to avoid IP ban
 - [ ] Add bonds to the tracker
-- [ ] Compare to the indexes such as S&P 500 my performance (add ability to calculate per year)
+- [x] Compare to the indexes such as S&P 500 my performance
 - [ ] Measurement of leverage
 - [ ] Convert currency to USD
-- [ ] Exclude stocks which were sold
+- [x] Exclude stocks which were sold
+- [ ] Add calculation for PIT-38 tax form
+- [ ] Add second data provider (IBKR API) for bonds
+- [ ] Add config file with parameters (API Limit, cache ttl, etc)
