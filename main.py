@@ -7,7 +7,7 @@ def calculate_percentage_difference(market_price, buy_price):
     # Calculate percentage difference
     percentage_difference = ((market_price - buy_price) / abs(buy_price)) * 100
 
-    return percentage_difference
+    return round(percentage_difference, 2)
 
 def calculate_etf_ttm(etf):
     trailing_annual_dividend_rate = etf.history(period="1y")['Dividends'].sum()
